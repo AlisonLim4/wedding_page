@@ -1,0 +1,23 @@
+button.button {
+  color: rgba(63, 62, 62, 0.829);
+  font-weight: bold;
+  background-color: rgba(70, 206, 88, 0.185);
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  width: max-content;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button.button:hover {
+  background-color: rgb(22, 194, 53);
+  color: rgb(0, 0, 0);
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 900px) {
+  button.button {
+    width: auto;
+    padding: auto;
+  }
+}

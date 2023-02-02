@@ -1,0 +1,22 @@
+input.input {
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding-left: 15px;
+  width: 100%;
+  height: 50px;
+}
+input.input::placeholder {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: #757575;
+}
+
+input.input[type="textarea"] {
+  height: 150px;
+}
+input.input[type="textarea"]::placeholder {
+  position: absolute;
+  top: 15px;
+}
