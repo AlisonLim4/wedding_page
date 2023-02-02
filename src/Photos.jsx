@@ -8,16 +8,7 @@ import chevron_r from "./assets/icons/chevronr_icon.svg";
 import chevron_l from "./assets/icons/chevronl_icon.svg";
 
 const Photos = () => {
-  const images = [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-  ];
+  const images = [photo1, photo2, photo3, photo4];
   const carousel = useRef(null);
 
   const handlePrev = (e) => {
