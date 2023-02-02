@@ -1,9 +1,8 @@
-import styles from "../styles/When.module.css";
+import styles from "./styles/When.module.css";
 import React from "react";
 import TitleSection from "./components/TitleSection";
-import clock from "../assets/icons/clock_icon.svg";
-// import cup from "../assets/icons/cup_icon.svg";
-import cup from "../assets/icons/cup2.svg";
+import clock from "./assets/icons/clock_icon.svg";
+import cup from "./assets/icons/cup2.svg";
 
 const When = ({ dayOfWeek, day, mounth, year, hour, localName, adress }) => {
   return (
