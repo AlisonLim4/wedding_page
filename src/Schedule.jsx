@@ -12,7 +12,7 @@ import React from "react";
 const Schedule = () => {
   return (
     <section className={styles.schedule}>
-      <TitleSection title="Programação do Evento" />
+      <TitleSection title="Programação" />
       <div className={styles.events}>
         <ScheduleCard
           img={building}
